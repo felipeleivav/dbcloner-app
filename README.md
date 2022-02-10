@@ -20,9 +20,10 @@ Only PostgreSQL is supported for the moment but MySQL and MariaDB support is alm
 
 By the moment there's no a well-established roadmap, but here are some features that I'm planning to add in the future:
 
-- Continuous replication instead of full dump to reduce synchronizations times for bigger databases
-- Support for creating replicas using only a dump file, without the need of a remote connection
-- Support for NoSQL engines (MongoDB, CouchDB, etc)
-- Support for cloud-only databases (AWS Aurora, DynamoDB are some candidates)
+- [ ] Continuous replication instead of full dump to reduce synchronizations times for bigger databases
+- [ ] Secured password storage
+- [ ] Support for creating replicas using only a dump file, without the need of a remote connection
+- [ ] Support for NoSQL engines (MongoDB, CouchDB, etc)
+- [ ] Support for cloud-only databases (AWS Aurora, DynamoDB are some candidates)
 
 I'm open to feedback and ideas. If you want to say something feel free to open an issue or send me an email to felipe@leiva.io.

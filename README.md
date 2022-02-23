@@ -18,12 +18,18 @@ DBcloner is currently a closed source experimental project. It's being built usi
 
 Only PostgreSQL is supported for the moment but MySQL and MariaDB support is almost ready for the next release.
 
-By the moment there's no a well-established roadmap, but here are some features that I'm planning to add in the future:
+By the moment there's no roadmap, but here are some features I'm planning to add in the future:
 
 - [ ] Continuous replication instead of full dump to reduce synchronizations times for bigger databases
 - [ ] Secured password storage
 - [ ] Support for creating replicas using only a dump file, without the need of a remote connection
 - [ ] Support for NoSQL engines (MongoDB, CouchDB, etc)
 - [ ] Support for cloud-only databases (AWS Aurora, DynamoDB are some candidates)
+- [ ] Search box for log viewer
+- [ ] DBeaver integration (Open running replicas on DBeaver without having to type connection parameters)
 
 I'm open to feedback and ideas. If you want to say something feel free to open an issue or send me an email to felipe@leiva.io.
+
+## Issues
+
+Since DBcloner is closed source by now, this repo is for issues.

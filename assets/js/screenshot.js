@@ -3,7 +3,7 @@ window.onload = function () {
     var h = document.getElementById('screenshot').clientHeight;
 
     var s = Snap("#screenshot");
-    s.paper.image('demo-ui/screenshot.png', 0, 0, 973, 639);
+    s.paper.image('assets/img/demo-ui/screenshot.png', 0, 0, 973, 639);
     
     var text = null;
     
@@ -32,7 +32,7 @@ window.onload = function () {
     };
     
     var loadButton = (image, x, y, w, h) => {
-        var i = s.paper.image('demo-ui/' + image, x, y, w, h);
+        var i = s.paper.image('assets/img/demo-ui/' + image, x, y, w, h);
         i.attr('opacity', '0');
         i.hover(() => i.attr('opacity', '1'), () => i.attr('opacity', '0'));
     }

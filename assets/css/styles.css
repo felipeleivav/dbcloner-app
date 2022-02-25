@@ -1,0 +1,42 @@
+body {
+  color: #193655;
+  background-color: #E6F2FE;
+  font-family: 'Work Sans';
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+.btn {
+  color: white;
+  background-color: #51A4FB;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #68B1FF;
+}
+
+a {
+  text-decoration: none;
+  color: #193655;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #193655;
+}
+
+i.fa {
+  color: #51A4FB;
+}
+

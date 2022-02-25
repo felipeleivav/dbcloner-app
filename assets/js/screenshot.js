@@ -26,7 +26,7 @@ window.onload = function () {
     
     // x,y,w,h -> hover button position & dimensions | tX,tY -> label position
     var loadLabel = (label, image, x, y, w, h, tX, tY) => {
-        var i = s.paper.image('demo-ui/' + image, x, y, w, h);
+        var i = s.paper.image('assets/img/demo-ui/' + image, x, y, w, h);
         i.attr('opacity', '0');
         i.hover(() => hoverIn(i, label, tX, tY), () => hoverOut(i));
     };

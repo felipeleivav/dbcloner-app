@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:100%">
 
 <head>
     <meta charset="utf-8">
@@ -8,30 +8,31 @@
     <meta name="description" content="A database cloning tool for the desktop. Now you can go ahead and play with your data like you ever wanted.">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png?h=c1e2fb12018d4d2aa3906947d5594ba6">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png?h=df700ee2049932b729f9e29d623794fb">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=e1c1fb9cf662947282edc7960a2bc3ac">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=56631d4db38e1b2e912655f1b6d8d24a">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/styles.css?h=f9b6a5c5b694238c85a1c76ac5214f37">
+    <link rel="stylesheet" href="assets/css/styles.css?h=369075750e74da1eb5e09ecd158b5de4">
 </head>
 
-<body class="d-flex justify-content-center">
-    <div style="width: 80%;">
+<body class="d-flex justify-content-center" style="height:100%">
+    <div class="d-flex flex-column" style="width: 80%;">
         <div style="max-width: 700px"><img class="pt-5" src="assets/img/logo-light.svg?h=bb6face0f5224260d31320e8dab51604" style="max-width: 420px;">
             <h1 class="py-3">a database cloning tool for the desktop</h1>
             <p>dbcloner is a desktop app for cloning live remote databases in your desktop.</p>
             <p>it works by dumping remote dbs and mounting them into docker containers that you can easily manage by taking snapshots, restoring previous states, re-syncronize from remote, etc.</p>
             <p>since it's docker based, you will never ever need to deal with any database server runtime. 100% hassle-free.</p>
             <p><strong>...and now you can go ahead and <span style="text-decoration: line-through;">break</span> play with your data like you ever wanted.</strong></p>
-            <div class="d-flex align-items-center pt-2"><button class="btn" type="button">download for linux</button><span class="ps-3">v0.1-beta | <a href="#">releases</a> | <a href="#">issues</a></span></div>
+            <div class="d-flex align-items-center pt-2"><a id="lin-btn" class="btn" href="https://github.com/felipeleivav/dbcloner-app/releases/download/v0.1.0-beta/dbcloner-0.1.0.AppImage"><strong>download for linux</strong></a><a id="win-btn" class="btn" href="https://github.com/felipeleivav/dbcloner-app/releases/download/v0.1.0-beta/dbcloner.0.1.0.exe"><strong>download for win (portable)</strong></a><span class="ps-3">v0.1-beta | <a href="https://github.com/felipeleivav/dbcloner-app/releases">releases</a> | <a href="https://github.com/felipeleivav/dbcloner-app/issues">issues</a></span></div>
         </div>
+        <div class="flex-grow-1"></div>
         <div style="max-width: 850px">
-            <div class="pt-5 d-flex justify-content-between"><span>developed with&nbsp;<img class="pb-1" src="assets/img/L.svg?h=801046b23b03269eccfd5b1b3f6e0b0a" style="width: 18px;">&nbsp;by <a href="https://github.com/felipeleivav" target="_blank">felipe</a></span><span><img src="https://shields.io/badge/postgres-supported-green?style=flat-square"><img class="ps-2" src="https://shields.io/badge/mysql-soon-orange?style=flat-square"><img class="ps-2" src="https://shields.io/badge/mariadb-soon-orange?style=flat-square"></span></div>
-            <div class="pt-2"><div style="max-width: 973px; max-height: 639px">
-    <svg id="screenshot" viewBox="0 0 973 639"></svg>
+            <div class="pt-5 d-flex justify-content-between flex-grow-1"><span>developed with&nbsp;<img class="pb-1" src="assets/img/L.svg?h=801046b23b03269eccfd5b1b3f6e0b0a" style="width: 18px;">&nbsp;by <a href="https://github.com/felipeleivav" target="_blank">felipe</a></span><span><img src="https://shields.io/badge/postgres-supported-green?style=flat-square"><img class="ps-2" src="https://shields.io/badge/mysql-soon-orange?style=flat-square"><img class="ps-2" src="https://shields.io/badge/mariadb-soon-orange?style=flat-square"></span></div>
+            <div class="pt-2"><div style="max-width: 973px; max-height: 300px">
+    <svg id="screenshot" viewBox="0 0 973 300"></svg>
 </div></div>
         </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
-    <script src="assets/js/screenshot.js?h=0f14a905134d767c668f62608921da54"></script>
+    <script src="assets/js/screenshot.js?h=cb60edb7c230a42b620c0af0d77fe7a4"></script>
     <script src="assets/js/snap.svg-min.js?h=b0e32efbf8f551bdf945df0131ba5ed7"></script>
 </body>
 

@@ -2,7 +2,7 @@ body {
   color: #193655;
   background-color: #E6F2FE;
   font-family: 'Work Sans';
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
 }
 
 h1 {

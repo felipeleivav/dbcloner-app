@@ -1,4 +1,10 @@
 window.onload = function () {
+    if (navigator.userAgent.indexOf("Win") != -1) {
+        document.getElementById('lin-btn').style.display = 'none';
+    } else {
+        document.getElementById('win-btn').style.display = 'none';
+    }
+    
     var w = document.getElementById('screenshot').clientWidth;
     var h = document.getElementById('screenshot').clientHeight;
 
